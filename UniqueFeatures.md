@@ -16,4 +16,4 @@
     print(x)
     ```
 * Java <br>
-Java is old enough that any unique features have now been used in many other languages as well. Java's features that make it viable to code in include being simple, object oriented, and portable.
+Java is old enough that any unique features have now been used in many other languages as well. Java's features that make it viable to code in include being simple, object oriented, and portable. Another great feature to Java is that bugs that could crash the system are easily caught, allowing the program not to crash on users. 
