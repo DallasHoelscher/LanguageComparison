@@ -57,26 +57,6 @@
    ```
    * Instance reference name in data type
       * Swift uses "self"
-   * Getters / Setters (example from Swift Documentation)
-    ```
-    struct Rect {
-      var origin = Point()
-      var size = Size()
-      var center: Point {
-        get {
-            let centerX = origin.x + (size.width / 2)
-            let centerY = origin.y + (size.height / 2)
-            return Point(x: centerX, y: centerY)
-        }
-        set(newCenter) {
-            origin.x = newCenter.x - (size.width / 2)
-            origin.y = newCenter.y - (size.height / 2)
-        }
-      }
-    }
-    ```
-      Getters / Setters are built into the swift programming language
-  * Computed property 
 * Java
   * Defining
     ```
@@ -98,21 +78,3 @@
   ```
   * Instance reference name in data type
     * Java uses "this"
-  * Getters / Setters
-  ```
-    public class Pet {
-      private String type;
-      public Pet(String type) {
-        this.type = type;
-      }
-    
-      public void setType(String type) {
-       this.type = type;
-      }
-    
-      public String getType() {
-        return type;
-      }
-    }
-  ```
-  In java getters and setters are just regular functions implemented by the programmer.
