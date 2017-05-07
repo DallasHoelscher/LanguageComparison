@@ -34,3 +34,4 @@
         //Methods / variables go in here
       }
     ```
+    * To be clear, users cannot create value types in Java, unlike swift.
