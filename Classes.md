@@ -55,6 +55,7 @@
 
     myDog = nil
    ```
+   Becuase Swift uses ARC, you can actually use deinit on a function to confidently do something when an object is deallocated. 
    * Instance reference name in data type
       * Swift uses "self"
 * Java
