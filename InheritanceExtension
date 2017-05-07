@@ -1,0 +1,19 @@
+# Inheritance / extension
+* Swift
+  * Inheritance - Swift allows you to inherit from other classes
+  ```
+    class SomeSubclass: SomeSuperclass {
+      // subclass definition goes here
+    }
+  ```
+  
+  * Exensions
+  
+* Java
+
+  * Inheritance - Java allows you to inherit from other classes
+  ```
+    public class SomeSubclass extends SomeSuperclass {
+      // subclass definition goes here
+    }
+  ```
