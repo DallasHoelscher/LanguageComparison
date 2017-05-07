@@ -1,2 +1,3 @@
 # LanguageComparison
-Final Project. Solo Group.
+Dallas Hoelscher<br>
+Comparing Swift and Java<br>
