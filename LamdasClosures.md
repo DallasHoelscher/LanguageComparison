@@ -60,5 +60,5 @@
       Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
 
     ```
-    * Lambdas can also be used as listeners, you can read more about that under <ul>Listeners<\ul>
+    * Lambdas can also be used as listeners, you can read more about that under Listeners
     
