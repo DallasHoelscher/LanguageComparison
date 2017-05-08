@@ -73,7 +73,7 @@
     Pet myDog = new Pet("Dog"); //Creates new pet with type dog
    ```
    * Deinitializing
-    * Because Java is a garbage collected language you cannot predict when (or even if) an object will be destroyed. But for it to be destroyed, you can set the variable to be null, similar to swift. 
+     * Because Java is a garbage collected language you cannot predict when (or even if) an object will be destroyed. But for it to be destroyed, you can set the variable to be null, similar to swift. 
   ```
     myDog = null; 
   ```
