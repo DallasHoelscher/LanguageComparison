@@ -19,3 +19,7 @@
     Method method = foo.getClass().getMethod("doSomething", null); //Get the method named "doSomething"
     method.invoke(foo, null); //Invoke the method if there was one
    ```
+   * Uses
+     * A major use for reflection is to look for @Test annotations for unit test cases
+     * An application may make use of external, user-defined classes by creating instances of extensibility objects using their fully-qualified names.
+     * Class Browsers and Visual Development Environments
