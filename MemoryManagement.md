@@ -10,3 +10,5 @@
 
 >To make sure that instances don’t disappear while they are still needed, ARC tracks how many properties, constants, and variables are currently referring to each class instance. ARC will not deallocate an instance as long as at least one active reference to that instance still exists
 * Java
+  * Garbage Collection 
+    * When garbage collection runs (At random, you can't trust that you will know when this happens), it will find all things that are still referenced and free all blocks that aren't. 
