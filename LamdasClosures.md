@@ -44,11 +44,11 @@
   * In java it is best to use a lamda expression, which is basically a better looking version of an anonymous inner class.
     * You can create a runnable by itself and then run it by calling it
       ```
-21     Runnable r = () -> System.out.println("Hello world two!");
+       Runnable r = () -> System.out.println("Hello world two!");
        r.run();
       ```
     * Inner class sorting vs lambda
-    ```
+     ```
       // Sort with Inner Class
       Collections.sort(personList, new Comparator<Person>(){
       public int compare(Person p1, Person p2){
@@ -59,6 +59,6 @@
       //Sort with lambda expression
       Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
 
-    ```
+     ```
     * Lambdas can also be used as listeners, you can read more about that under Listeners
     
