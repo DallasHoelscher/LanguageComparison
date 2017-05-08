@@ -50,11 +50,11 @@
     * Inner class sorting vs lambda
     ```
       // Sort with Inner Class
-17     Collections.sort(personList, new Comparator<Person>(){
-18       public int compare(Person p1, Person p2){
-19         return p1.getSurName().compareTo(p2.getSurName());
-20       }
-21     });
+      Collections.sort(personList, new Comparator<Person>(){
+      public int compare(Person p1, Person p2){
+      return p1.getSurName().compareTo(p2.getSurName());
+      }
+      });
 
       //Sort with lambda expression
       Collections.sort(personList, (Person p1, Person p2) -> p1.getSurName().compareTo(p2.getSurName()));
